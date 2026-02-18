@@ -12,5 +12,8 @@ router.post("/", (req, res) => {
 router.put("/", (req, res) => {
   res.json({ message: "API is working 🚀" });
 });
+router.delete("/", (req, res) => {
+  res.json({ message: "API is working 🚀" });
+});
 
 export default router;
