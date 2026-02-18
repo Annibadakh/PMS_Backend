@@ -8,5 +8,13 @@ router.get("/", (req, res) => {
 
 router.get("/hey",(req,res)=>{
     res.json({message:"hey from harsh"})
+
+
+})
+
+router.get("/hello",(req,res)=>{
+    res.json({message:"hello from harsh"})
+
+
 })
 export default router;
